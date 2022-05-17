@@ -1,0 +1,50 @@
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    border: dotted;
+}
+main{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 100px;
+    border: dotted;
+}
+.none{
+    display: none;
+}
+h1{
+    margin: 10px 0 0 0;
+}
+.nomeCompletoInput{
+    border: solid 1px;
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 10px 0 0 0;
+}
+.textAreaInput{
+    border: solid 1px;
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 10px 0 0 0;
+}
+input{
+    border: none;
+    font-size: 20px;
+    width: 400px;
+}
+.btnEditar{
+    height: 30px;
+    width: 60px;
+    border: none;
+    background-color: plum;
+}
+.btnSalvar{
+    border: none;
+    background-color: greenyellow;
+}
+.qualificacoesInput{
+    background: rgb(179, 179, 179);
+}
